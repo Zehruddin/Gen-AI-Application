@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./templates/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+      chatblack: 'rgb(33, 33, 33)',
+      chatbody:'rgb(20 ,20,20)'
+    }
+    },
+    
   },
   plugins: [],
 }
